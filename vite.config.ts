@@ -35,7 +35,7 @@ export default ({ mode }) => {
             vue: cdn
               .npmmirror("Vue", "dist/vue.global.prod.js")
                ,
-            "element-plus": cdn.npmmirror(
+            "element-plus/es": cdn.npmmirror(
               "ElementPlus",
               "dist/index.full.min.js",
             ),
